@@ -1,0 +1,34 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 200px;
+  padding: 20px;
+  border: 1px solid red;
+}
+
+.article-container {
+  border: 1px solid blue;
+  grid-column: 1/3;
+  align-content: center;
+  letter-spacing: 0.3ch;
+}
+
+.article-heading {
+  font-size: 8rem;
+  color: #685752;
+}
+
+.article-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.abilities-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid red;
+}
+
+.abilities-sub-container {
+  border: 1px solid green;
+}

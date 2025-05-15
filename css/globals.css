@@ -1,4 +1,5 @@
 /* CSS Reset (Josh W. Comeau) */
+
 *,
 *::before,
 *::after {
@@ -18,6 +19,8 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Annie Use Your Telescope";
+  text-transform: uppercase;
 }
 
 img,
